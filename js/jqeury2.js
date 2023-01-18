@@ -6,7 +6,7 @@ $(document).ready(function () {
   });
 
   //   3. Find the total width of an element:-
-  let tagLen = $("#myText").width();
+  let tagLen = $("#myText").outerWidth();
   console.log(`width of the P Tag: ${tagLen}`);
 
   //   4. Check if an object is a jQuery object
